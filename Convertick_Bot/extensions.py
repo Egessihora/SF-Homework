@@ -24,7 +24,7 @@ class CryptoConverter:
         try:
             base_ticker = keys[base]
         except KeyError:
-            raise APIException(f'\nК сожалению мне не знакома валюта "{quote}" :(\n'
+            raise APIException(f'\nК сожалению мне не знакома валюта "{base}" :(\n'
                                f'\nЧтобы увидеть валюты, которые я умею конвертировать, '
                                f'введите команду\n/values')
 
